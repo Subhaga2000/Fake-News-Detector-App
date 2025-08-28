@@ -20,7 +20,7 @@ This is an end-to-end data science project that demonstrates the entire workflow
 * **NLTK:** For natural language processing tasks.
 * **Streamlit:** For creating the web application UI.
 
-![Fake News Detector App Prediction UI](assets/prediction_ui.png)
+![Fake News Detector App Prediction UI](assets/prediction_ui.png.png)
 
 ---
 
