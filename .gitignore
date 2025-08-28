@@ -1,0 +1,7 @@
+# Ignore virtual environment
+venv/
+
+# Ignore large data and model files
+data/
+*.h5
+*.pkl
