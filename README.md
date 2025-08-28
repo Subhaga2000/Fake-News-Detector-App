@@ -34,7 +34,7 @@ git clone [https://github.com/Subhaga2000/Fake-News-Detector-App.git](https://gi
 cd Fake-News-Detector-App
 
 
-### 1. Download the Dataset 💾
+### 2. Download the Dataset 💾
 
 This project's dataset is not included in the repository due to its large size. You can download it for free from Kaggle.
 
@@ -42,30 +42,30 @@ This project's dataset is not included in the repository due to its large size. 
 * Create a new folder named `data` in your project's root directory.
 * Place the downloaded `Fake.csv` and `True.csv` files inside the `data` folder.
 
-### 2. Set Up the Environment 🐍
+### 3. Set Up the Environment 🐍
 
 It's highly recommended to use a virtual environment to manage dependencies.
 
 
-## Create and activate virtual environment
+#### Create and activate virtual environment
 `python -m venv venv`
 
-## On Windows:
+#### On Windows:
 `venv\Scripts\activate`
 
-## On macOS/Linux:
+#### On macOS/Linux:
 `source venv/bin/activate`
 
-### Next, install the required libraries listed in requirements.txt:
+### 4. Install the required libraries listed in requirements.txt:
 
 `pip install -r requirements.txt`
 
-### Train the Model 🧠
+### 5. Train the Model 🧠
 Run the main script to process the data and train the model. This will create the necessary model files (fake_news_model.h5 and tokenizer.pkl) that the app needs.
 
 `python main_script.py`
 
-### Run the Streamlit App 🚀
+### 6. Run the Streamlit App 🚀
 
 Finally, launch the web application.
 
