@@ -33,9 +33,6 @@ Open your terminal and clone the project to your local machine:
 git clone [https://github.com/Subhaga2000/Fake-News-Detector-App.git](https://github.com/Subhaga2000/Fake-News-Detector-App.git)
 cd Fake-News-Detector-App
 
-## 🚀 How to Run the Project Locally
-
-To run this project on your local machine, you need to follow these steps:
 
 ### 1. Download the Dataset 💾
 
@@ -50,13 +47,13 @@ This project's dataset is not included in the repository due to its large size. 
 It's highly recommended to use a virtual environment to manage dependencies.
 
 
-# Create and activate virtual environment
+## Create and activate virtual environment
 `python -m venv venv`
 
-# On Windows:
+## On Windows:
 `venv\Scripts\activate`
 
-# On macOS/Linux:
+## On macOS/Linux:
 `source venv/bin/activate`
 
 ### Next, install the required libraries listed in requirements.txt:
