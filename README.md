@@ -30,6 +30,46 @@ This is an end-to-end data science project that demonstrates the entire workflow
 
 Open your terminal and clone the project to your local machine:
 
-```bash
 git clone [https://github.com/Subhaga2000/Fake-News-Detector-App.git](https://github.com/Subhaga2000/Fake-News-Detector-App.git)
 cd Fake-News-Detector-App
+
+## 🚀 How to Run the Project Locally
+
+To run this project on your local machine, you need to follow these steps:
+
+### 1. Download the Dataset 💾
+
+This project's dataset is not included in the repository due to its large size. You can download it for free from Kaggle.
+
+* Download the `Fake.csv` and `True.csv` files from [this Kaggle link](https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets).
+* Create a new folder named `data` in your project's root directory.
+* Place the downloaded `Fake.csv` and `True.csv` files inside the `data` folder.
+
+### 2. Set Up the Environment 🐍
+
+It's highly recommended to use a virtual environment to manage dependencies.
+
+
+# Create and activate virtual environment
+`python -m venv venv`
+
+# On Windows:
+`venv\Scripts\activate`
+
+# On macOS/Linux:
+`source venv/bin/activate`
+
+### Next, install the required libraries listed in requirements.txt:
+
+`pip install -r requirements.txt`
+
+### Train the Model 🧠
+Run the main script to process the data and train the model. This will create the necessary model files (fake_news_model.h5 and tokenizer.pkl) that the app needs.
+
+`python main_script.py`
+
+### Run the Streamlit App 🚀
+
+Finally, launch the web application.
+
+`streamlit run app.py`
