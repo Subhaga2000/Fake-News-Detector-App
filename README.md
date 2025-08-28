@@ -9,7 +9,7 @@ This is an end-to-end data science project that demonstrates the entire workflow
 * **Class Balancing:** Addresses imbalanced data to prevent model bias.
 * **Interactive UI:** A user-friendly interface built with Streamlit.
 
-![Fake News Detector App UI](assets/app_ui.png)
+![Fake News Detector App UI](assets/app_ui.png.png)
 
 ## 🛠️ Technology Stack
 
